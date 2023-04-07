@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    background-image: url("image.jpg");
+
+    /* background: #1071d2; */
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: Blue;
+   
+}
+
+.form {
+    /* background-image: url("image.jpg"); */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    /* width:clamp(450px, 50%, 800px); */
+
+    
+}
+
+.form-control input {
+    border: 2px solid  #f0f0f0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  
+  
+  
+}
+    
+
+.form-control input:focus{
+    outline: 0;
+    border-color: pink;
+}
+
+.form-control button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 3px solid #2c2121;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 25px;
+    padding: 20x;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;        
+}
+.container1 button{
+
+    cursor: pointer;
+    background-color: #3498db;
+    border: 3px solid #1f1717;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 25px;
+    padding: 20x;
+    margin: 0 auto;
+    margin: top 0;;
+    width: 119%;
+    
+    
+}
+
+
+.form-control select{
+    width: 104%;
+}
+
+
+/* 
+.container button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #0c5989;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 25px;
+    padding: 20x;
+    margin-top: 20px;
+    width: 50%;      
+   
+}  */
+
+
+
+button[type="btn2"]:hover{
+    background-color: #981c24;
+}
+button[type="btn1"]:hover{
+    background-color: #0ea860;
+}
+button[type="btn3"]:hover{
+    background-color: #158823;
+}
+
+
+.form-control label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc
+}
+
+.form-control input[type="radio"] {
+    width: 50px;
+    
+  }
+
+.container{
+    background-color: #fff;
+}
+.invalid{
+    color: red;
+}
+
+#error{
+    color: red;
+}
+
+#error1{
+    color: red;
+}
+#error2{
+    color: red;
+}
+#error3{
+    color: red;
+}
+
+

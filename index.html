@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Form VALIDATION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+    <form id="form" class="form">
+        <h2><b>ENTER FORM DETAILS</b></h2>
+        <div class="form-control">
+            <label type="FirstName">FirstName</label>
+            <input type="text" id="FirstName">
+            <div id="error"></div>
+          
+        </div>
+
+        <div class="form-control">
+            <label type="LastName">LastName</label>
+            <input type="text" id="LastName">
+            <div id="error1"></div>
+        </div>
+
+        <div class="form-control">
+            <label type="Email">Email</label>
+            <input type="text" id="Email">
+            <div id="error2"></div>
+        </div>
+
+
+        <div class="form-control">
+            <label type=number>Mobile Number</label>
+            <input type=number id="Mobile Number">
+            <div id="error3"></div>
+        </div>
+
+        <div class="form-control">
+            <label type="Gender:">Gender</label>
+            <input type="radio" id='gender' value="Male"name="Gender" checked>Male
+            <input type="radio" id='gender' value="Female" name="Gender">Female
+            
+        </div>
+
+        <div class="form-control">
+            <label>Choose Degree</label>
+            <select id="degree" name="degree">
+                <option value="selected">Select Option</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="BCA">BCA</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Choose Language</label>
+            <select id="Language">
+                <option>Select Option</option>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Dogri</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <button type= "btn1" id="submit">submit</button>
+            <button type= "btn2" id="clear">clear History</button>
+            </div>
+        </form>
+    
+
+    <div class="container1">
+        <button type= "btn3" id="show_Details">Show Details</button>
+    </div>
+    
+    <div id="data"></div>
+    </div>   
+
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
